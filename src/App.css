@@ -1,0 +1,28 @@
+body {
+  background-color: #f1f1f1 !important;
+}
+.Navbar-background {
+  background-image: url("./assets/Back.jpg");
+  min-height: 560px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.BrandImg {
+
+  object-fit: cover;
+  margin: 40px;
+  height: auto;
+  width: 61%;
+}
+.Navbar-Logo {
+  background-color: rgb(209, 232, 252);
+}
+
+a{
+  text-decoration: none !important;
+  color: black !important;
+}

@@ -1,0 +1,106 @@
+/* ================================[Corparation style]======================================================== */
+
+.Corparation-Container h1 {
+  font-size: 29px;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 800;
+  font-weight: bolder;
+}
+.Corparation-Container .card:hover {
+  box-shadow: 0px 0px 10px black;
+  transform: all ease-in-out;
+  transition-delay: 0.1s;
+}
+.Corparation-Container .card-body {
+  font-size: 10px;
+  font-family: "Russo One", sans-serif;
+}
+.Corparation-container .card-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* ================================[Platforms style]======================================================== */
+
+.Platforms-container h1 {
+  font-size: 29px;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 800;
+  font-weight: bolder;
+}
+
+.Platforms-container .card:hover {
+  box-shadow: 0px 0px 10px black;
+  transform: all ease-in-out;
+  transition-delay: 0.1s;
+}
+.Platforms-container .card-body {
+  font-size: 10px;
+  font-family: "Russo One", sans-serif;
+}
+
+/* ================================[Brands style]======================================================== */
+
+.Brands-container h1 {
+  font-size: 29px;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 800;
+  font-weight: bolder;
+}
+.Brands-container .card:hover {
+  box-shadow: 0px 0px 10px black;
+  transform: all ease-in-out;
+  transition-delay: 0.1s;
+  border: none;
+}
+.Brands-container .card-body {
+  font-size: 10px;
+  font-family: "Russo One", sans-serif;
+}
+.Brands-container {
+  text-decoration: none;
+}
+/* ================================[Content style]======================================================== */
+
+.Content-Container {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+/* ================================[Investor style]======================================================== */
+
+.Investor-Container {
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Investor-Container p {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Russo One", sans-serif;
+}
+.Footer-Container {
+  height: auto;
+  background-image: url("../assets//Footer.jpg");
+}
+
+.Footer-Container img {
+  margin: 50px;
+}
+.Footer-Container {
+  color: white;
+  font-size: 10px;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+}
+
+.Footer-Container input {
+  text-align: center;
+  color: grey;
+}
