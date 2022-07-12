@@ -9,7 +9,7 @@ export default function Header() {
         <Navbar
           bg="light"
           expand="xl"
-          style={{ width: "100%", position: "absolute" }}
+          style={{ width: "100%"}}
         >
           <Container>
             <Navbar.Brand href="#home">

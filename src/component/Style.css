@@ -85,6 +85,8 @@
   font-size: 19px;
   font-family: "Russo One", sans-serif;
 }
+/* ================================[Footer style]======================================================== */
+
 .Footer-Container {
   height: auto;
   /* background-image: url("../assets//Footer.jpg"); */
@@ -101,25 +103,38 @@
   text-align: center;
 }
 
-.navbar-light .navbar-nav .nav-link{
-  margin-left: 44px;
-  color: #06559d !important;
-  font-weight: 500;
-}
-
-.NavbarLogo{
-  width:100%;
-  height:150px;
-}
-.Footer-Container h5{
+.Footer-Container h5 {
   margin-top: 2em;
 }
-.Footer-Container input{
+.Footer-Container input {
   padding-left: 100px;
   padding-right: 150px;
-height: 40px;
+  height: 40px;
   border-radius: 20px;
   margin-top: 20px;
   border: none;
   margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 320px) {
+  .Footer-Container input {
+  
+    padding-right: 80px;
+   
+  }
+  
+}
+/* ================================[Navbar style]======================================================== */
+
+.navbar-light .navbar-nav .nav-link {
+  margin-left: 44px;
+  color: #06559d !important;
+  font-weight: 500;
+}
+
+.NavbarLogo {
+  width: 100%;
+  height: 150px;
+}
+
