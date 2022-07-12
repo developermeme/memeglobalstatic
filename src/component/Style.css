@@ -87,7 +87,8 @@
 }
 .Footer-Container {
   height: auto;
-  background-image: url("../assets//Footer.jpg");
+  /* background-image: url("../assets//Footer.jpg"); */
+  background-color: gray;
 }
 
 .Footer-Container img {
@@ -100,7 +101,25 @@
   text-align: center;
 }
 
-.Footer-Container input {
-  text-align: center;
-  color: grey;
+.navbar-light .navbar-nav .nav-link{
+  margin-left: 44px;
+  color: #06559d !important;
+  font-weight: 500;
+}
+
+.NavbarLogo{
+  width:100%;
+  height:150px;
+}
+.Footer-Container h5{
+  margin-top: 2em;
+}
+.Footer-Container input{
+  padding-left: 100px;
+  padding-right: 150px;
+height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+  margin-bottom: 20px;
 }

@@ -9,7 +9,7 @@ import {
 } from "react-bootstrap";
 import Footerlogo from "../assets/Footer.jpg";
 import "./Style.css";
-import Logo from "../assets/memegloballogo.svg"
+import Logo from "../assets/MEME.png";
 
 export default function Footer() {
   return (
@@ -17,23 +17,17 @@ export default function Footer() {
       <div id="Contact" className="Footer-Container">
         <Row>
           <Col>
-          <img src={Logo} alt="Footer-Logo"/>
+            <img src={Logo} alt="Footer-Logo" />
           </Col>
           <Col>
             <h5>SUBSCRIBE</h5>
-            <FloatingLabel controlId="floatingInputGrid" label="Email address">
-              <Form.Control type="email" placeholder="name@example.com" />
-            </FloatingLabel>
+            <input placeholder="Enter User Email" className=""/>
             <h3>CONTACT US</h3>
             <h4>MEME WORLDWIDE INC.</h4>
             <p>435 Stratton street, Logan West Virginia 25601, USA</p>
           </Col>
-          <Col>
-            {" "}
-            <img src={Logo} alt="Footer-Logo"/>
-          </Col>
+          <Col> {/* <img src={Logo} alt="Footer-Logo"/> */}</Col>
         </Row>
-      
       </div>
     </>
   );

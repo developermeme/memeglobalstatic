@@ -1,5 +1,5 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
-import Logo from "../assets/memegloballogo.svg";
+import Logo from "../assets/MEME.png";
 
 export default function Header() {
   return (
@@ -8,17 +8,17 @@ export default function Header() {
         <Navbar
           bg="light"
           expand="xl"
-          style={{ width: "100%", position: "absolute", marginTop: "43px" }}
+          style={{ width: "100%", position: "absolute"}}
         >
           <Container>
             <Navbar.Brand href="#home">
-              {/* <img
+              <img
       src={Logo}
       
-      className="Navbar-Logo"
+      className="NavbarLogo"
       alt="Logo"
-    /> */}
-              <h1>MeMeGlobal</h1>
+    />
+              {/* <h1>MeMeGlobal</h1> */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
