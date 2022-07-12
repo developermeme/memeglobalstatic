@@ -1,23 +1,19 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import Logo from "../assets/MEME.png";
+import Navbarback from "../assets/Navbarback.png";
 
 export default function Header() {
   return (
     <>
-      <div className="Navbar-background">
+      <div>
         <Navbar
           bg="light"
           expand="xl"
-          style={{ width: "100%", position: "absolute"}}
+          style={{ width: "100%", position: "absolute" }}
         >
           <Container>
             <Navbar.Brand href="#home">
-              <img
-      src={Logo}
-      
-      className="NavbarLogo"
-      alt="Logo"
-    />
+              <img src={Logo} className="NavbarLogo" alt="Logo" />
               {/* <h1>MeMeGlobal</h1> */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -34,6 +30,7 @@ export default function Header() {
           </Container>
         </Navbar>
       </div>
+      <div><img src={Navbarback} style={{width:"100%",height:"auto"}}/></div>
     </>
   );
 }

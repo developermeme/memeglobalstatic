@@ -1,16 +1,17 @@
 body {
   background-color: #f1f1f1 !important;
 }
-.Navbar-background {
+/* .Navbar-background {
   background-image: url("./assets/Navbarback.png");
   min-height: 700px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 
   /* Needed to position the navbar */
-  position: relative;
-}
+  /* position: relative;
+  
+} */
 .BrandImg {
 
   object-fit: cover;
